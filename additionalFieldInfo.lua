@@ -66,25 +66,27 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
     -- print("AdditionalFieldInfo:fieldAddFarmland")
     if self.currentField == nil then self.currentField = 4 end
 
-    for _, field in pairs(g_fieldManager.farmlandIdFieldMapping) do
+    for _, farmland in pairs(g_farmlandManager.farmlands) do
         local bFound = false
         local farmLandArea = 0.
         local fieldAreaSum = 0.
         local farmLandPrice = 0.
         local isOwned = false
-        if field.farmland.id ~= nil then
-            if field.farmland.id == data.farmlandId then
+        if farmland.id ~= nil then
+            if farmland.id == data.farmlandId then
                 bFound = true
-                local areaInHa =  g_i18n:formatArea(field.areaHa, 2)
-                fieldAreaSum = fieldAreaSum + field.areaHa
-                farmLandPrice = field.farmland.price
-                isOwned = field.farmland.isOwned
-                local Field_xx_Area = string.format(g_i18n:getText("additionalFieldInfo_FIELD_AREA"), field.farmland.id)
-                box:addLine(Field_xx_Area, areaInHa)
+                if farmland.field ~= nil then
+                    local areaInHa =  g_i18n:formatArea(farmland.field.areaHa, 2)
+                    fieldAreaSum = fieldAreaSum + farmland.field.areaHa
+                    local Field_xx_Area = string.format(g_i18n:getText("additionalFieldInfo_FIELD_AREA"), farmland.id)
+                    box:addLine(Field_xx_Area, areaInHa)
+                end
+                farmLandPrice = farmland.price
+                isOwned = farmland.isOwned
                 if data.lastFruitTypeIndex ~= nil then
                     local fruitType = g_fruitTypeManager:getFruitTypeByIndex(data.lastFruitTypeIndex)
                     local fruitGrowthState = data.lastGrowthState
-                    if fruitType ~= nil then
+                    if fruitType ~= nil and farmland.field ~= nil then
                         if fruitType.growthStateToName[fruitGrowthState] == "harvestReady" then
                             local sprayFactor = data.sprayLevel
                             local plowFactor = data.plowLevel
@@ -118,9 +120,9 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                             local literPerSqm = fruitType.literPerSqm
                             -- Display Potential harvest quantity
                             local Potential_Harvest = g_i18n:getText("additionalFieldInfo_POTENTIAL_HARVEST")
-                            local potentialHarvestQty = literPerSqm * field.areaHa * harvestMultiplier * 10000 -- ha to sqm
+                            local potentialHarvestQty = literPerSqm * farmland.field.areaHa * harvestMultiplier * 10000 -- ha to sqm
                             -- potentialHarvestQty = g_missionManager:testHarvestField(farmland)
-                                -- local harvestMission = g_missionManager.fieldToMission[farmland.fieldId]
+                                -- local harvestMission = g_missionManager.fieldToMission[farmland.farmland.fieldId]
                                 -- if harvestMission then
                                 --     potentialHarvestQty = harvestMission:getMaxCutLiters()
                                 --     -- print("harvestMission: "..tostring(potentialHarvestQty))
@@ -129,7 +131,7 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
     
                             -- Display Potential yield
                             local Potential_Yield = g_i18n:getText("additionalFieldInfo_POTENTIAL_YIELD")
-                            local potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(field.areaHa)
+                            local potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(farmland.field.areaHa)
                             box:addLine(Potential_Yield, string.format("%1.2f T/"..tostring(g_i18n:getAreaUnit()), potentialYield))
                         end
                     end
