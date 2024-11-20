@@ -10,49 +10,55 @@
     </title>
     <description>
         <en><![CDATA[
-Display additional info in the field info panel when walking through a field:
+Description: Display additional info in the field info panel when walking through a field:
   - Area of each field in the current land
   - Current land area
   - Price per ha (per ac) of the cultivated area on land you don't own
   - Potential harvest quantity and yield on ready to harvest fields
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></en>
         <fr><![CDATA[
-Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
+Description: Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
   - Superficie de chaque champ du terrain actuel
   - Superficie du terrain actuel
   - Prix par ha (par ac) de la partie cultivée des terrains que vous ne possédez pas
   - Récolte et rendement potentiel dans les champs prêt à récolter
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></fr>
         <de><![CDATA[
-Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein Feld gehen:
+Beschreibung: Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein Feld gehen:
   - Fläche jedes Feldes im aktuellen Land
   - Aktuelle Landfläche
   - Preis pro ha (pro ac) der Anbaufläche auf Land, das Sie nicht besitzen
   - Potenzielle Erntemenge und Ertrag auf erntefertigen Feldern
+GitHub-Link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></de>
         <pl><![CDATA[
-Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
+Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
   - Teren pola na danym grunucie
   - Teren danego gruntu
   - Cenę za ha (za akr) terenu po kultywacji na nieposiadanych ziemiach 
   - Potencjalny zysk i przypuszczalną ilość zbiorów na polach gotowych na zbiory
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></pl>
         <es><![CDATA[
-Muestra información adicional sobre el campo que estás:
+Descripción: Muestra información adicional sobre el campo que estás:
   - Área de cada campo en el terreno actual
   - Área de la zona actual
   - Precio por ha (per ac) del área cultivada en tierras que no son de su propiedad.
   - Cantidad potencial de cosecha y rendimiento en campos listos para cosechar
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></es>
         <ru><![CDATA[
-Отображение дополнительной информации на панели информации о поле при проходе по полю:
+Описание: Отображение дополнительной информации на панели информации о поле при проходе по полю:
   - Площадь каждого поля на участке
   - Площадь земельного участка
   - Цена за гектар (за акр) посевной площади на земле, которой вы не владеете
   - Возможное количество урожая и урожайность на готовых к уборке полях
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></ru>
     </description>
-    <iconFilename>modIcon.dds</iconFilename>
+    <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
     <multiplayer supported="true"/>
     
     <extraSourceFiles>
