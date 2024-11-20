@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+    <author>yumi</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Additional Field Info</en>
+        <fr>Informations De Champ Supplémentaires</fr>
+        <de>Zusätzliche Feldinfo</de>
+        <ru>Дополнительная Информация О Поле</ru>
+    </title>
+    <description>
+        <en><![CDATA[
+Display additional info in the field info panel when walking through a field:
+  - Area of each field in the current land
+  - Current land area
+  - Price per ha (per ac) of the cultivated area on land you don't own
+  - Potential harvest quantity and yield on ready to harvest fields
+]]></en>
+        <fr><![CDATA[
+Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
+  - Superficie de chaque champ du terrain actuel
+  - Superficie du terrain actuel
+  - Prix par ha (par ac) de la partie cultivée des terrains que vous ne possédez pas
+  - Récolte et rendement potentiel dans les champs prêt à récolter
+]]></fr>
+        <de><![CDATA[
+Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein Feld gehen:
+  - Fläche jedes Feldes im aktuellen Land
+  - Aktuelle Landfläche
+  - Preis pro ha (pro ac) der Anbaufläche auf Land, das Sie nicht besitzen
+  - Potenzielle Erntemenge und Ertrag auf erntefertigen Feldern
+]]></de>
+        <pl><![CDATA[
+Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
+  - Teren pola na danym grunucie
+  - Teren danego gruntu
+  - Cenę za ha (za akr) terenu po kultywacji na nieposiadanych ziemiach 
+  - Potencjalny zysk i przypuszczalną ilość zbiorów na polach gotowych na zbiory
+]]></pl>
+        <es><![CDATA[
+Muestra información adicional sobre el campo que estás:
+  - Área de cada campo en el terreno actual
+  - Área de la zona actual
+  - Precio por ha (per ac) del área cultivada en tierras que no son de su propiedad.
+  - Cantidad potencial de cosecha y rendimiento en campos listos para cosechar
+]]></es>
+        <ru><![CDATA[
+Отображение дополнительной информации на панели информации о поле при проходе по полю:
+  - Площадь каждого поля на участке
+  - Площадь земельного участка
+  - Цена за гектар (за акр) посевной площади на земле, которой вы не владеете
+  - Возможное количество урожая и урожайность на готовых к уборке полях
+]]></ru>
+    </description>
+    <iconFilename>modIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    
+    <extraSourceFiles>
+        <sourceFile filename="additionalFieldInfo.lua" />
+    </extraSourceFiles>
+
+    <l10n>
+        <text name="additionalFieldInfo_FIELD_AREA">
+            <fr>Superficie du champ %d</fr>
+            <en>Field %d Area</en>
+            <de>Feld %d Fläche</de>
+            <pl>Powierzchnia pola %d</pl>
+            <es>Area del campo %d</es>
+            <ru>Площадь поля %d</ru>
+        </text>
+        <text name="additionalFieldInfo_FARMLAND_AREA">
+            <fr>Superficie du terrain</fr>
+            <en>Land Area</en>
+            <de>Landfläche</de>
+            <pl>Powierzchnia terenu</pl>
+            <es>Area de la parcela</es>
+            <ru>Площадь участка</ru>
+        </text>
+        <text name="additionalFieldInfo_AREA">
+            <fr>Superficie</fr>
+            <en>Area</en>
+            <de>Fläche</de>
+            <pl>Teren</pl>
+            <es>Area</es>
+            <ru>Площадь</ru>
+        </text>
+        <text name="additionalFieldInfo_PRICE_ON_AREA">
+            <fr>Prix à l'%s</fr>
+            <en>Price per %s</en>
+            <de>Preis pro %s</de>
+            <pl>Cena za %s</pl>
+            <es>Precio por %s</es>
+            <ru>Поле(я) на участке по</ru>
+        </text>
+        <text name="additionalFieldInfo_POTENTIAL_HARVEST">
+            <fr>Récolte potentielle</fr>
+            <en>Potential harvest quantity</en>
+            <de>Potenzielle Erntemenge</de>
+            <pl>Potencjalny plon</pl>
+            <es>A cosechar aprox.</es>
+            <ru>Возможный урожай</ru>
+        </text>
+        <text name="additionalFieldInfo_POTENTIAL_YIELD">
+            <fr>Rendement potentiel</fr>
+            <en>Potential yield</en>
+            <de>Möglicher Ertrag</de>
+            <pl>Potencjalny zysk</pl>
+            <es>Posible rendimiento</es>
+            <ru>Возможн. урожайность</ru>
+        </text>
+    </l10n>
+
+</modDesc>
