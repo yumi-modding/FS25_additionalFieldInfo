@@ -26,11 +26,11 @@ Description: Affiche des informations supplémentaires dans le panneau lorsque v
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></fr>
         <de><![CDATA[
-Beschreibung: Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein Feld gehen:
-  - Fläche jedes Feldes im aktuellen Land
-  - Aktuelle Landfläche
-  - Preis pro ha (pro ac) der Anbaufläche auf Land, das Sie nicht besitzen
-  - Potenzielle Erntemenge und Ertrag auf erntefertigen Feldern
+Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn man durch ein Feld geht:
+  - Fläche jeder Ackerfläche im aktuellen Land
+  - Gesamte Landfläche des Gebiets
+  - Preis pro ha (pro ac) der Ackerfläche im aktuellen Land
+  - Potenzielle Erntemenge und potenzieller Ertrag erntereifer Felder
 GitHub-Link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></de>
         <pl><![CDATA[
@@ -109,7 +109,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
         <text name="additionalFieldInfo_POTENTIAL_YIELD">
             <fr>Rendement potentiel</fr>
             <en>Potential yield</en>
-            <de>Möglicher Ertrag</de>
+            <de>Potenzieller Ertrag</de>
             <pl>Potencjalny zysk</pl>
             <es>Posible rendimiento</es>
             <ru>Возможн. урожайность</ru>
