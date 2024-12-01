@@ -88,10 +88,10 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                     local fruitGrowthState = data.lastGrowthState
                     if fruitType ~= nil and farmland.field ~= nil then
                         if fruitType.growthStateToName[fruitGrowthState] == "harvestReady" then
-                            local sprayFactor = data.sprayLevel
+                            local sprayFactor = data.sprayLevel / 2
                             local plowFactor = data.plowLevel
-                            local limeFactor = 1 - data.limeLevel
-                            local weedFactor = data.weedFactor
+                            local limeFactor = data.limeLevel / 3
+                            local weedFactor = 1 - data.weedFactor
                             local stubbleFactor = data.stubbleShredLevel
                             local rollerFactor = 1 - data.rollerLevel
                             local stoneFactor = data.stoneLevel
