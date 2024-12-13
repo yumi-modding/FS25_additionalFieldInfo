@@ -7,6 +7,7 @@
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
         <ru>Дополнительная Информация О Поле</ru>
+        <it>Informazioni aggiuntive sul campo</it>
     </title>
     <description>
         <en><![CDATA[
@@ -57,6 +58,14 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
   - Возможное количество урожая и урожайность на готовых к уборке полях
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 ]]></ru>
+        <it><![CDATA[
+Descrizione: Visualizza informazioni aggiuntive nel pannello informativo del campo quando si cammina in un campo:
+  - Area di ogni campo nel terreno corrente
+  - Area del terreno corrente
+  - Prezzo per ettaro (per ac) dell'area coltivata su terreni non di vostra proprietà
+  - Quantità e resa del raccolto potenziale sui campi pronti per il raccolto
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+]]></it>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -73,6 +82,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
+            <it>Superficie del campo</it>
         </text>
         <text name="additionalFieldInfo_FARMLAND_AREA">
             <fr>Superficie du terrain</fr>
@@ -81,6 +91,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Powierzchnia terenu</pl>
             <es>Area de la parcela</es>
             <ru>Площадь участка</ru>
+            <it>Superficie del terreno</it>
         </text>
         <text name="additionalFieldInfo_AREA">
             <fr>Superficie</fr>
@@ -89,6 +100,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
+            <it>Superficie</it>
         </text>
         <text name="additionalFieldInfo_PRICE_ON_AREA">
             <fr>Prix à l'%s</fr>
@@ -97,6 +109,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
             <ru>Поле(я) на участке по</ru>
+            <it>Prezzo per %s</it>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_HARVEST">
             <fr>Récolte potentielle</fr>
@@ -105,6 +118,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Potencjalny plon</pl>
             <es>A cosechar aprox.</es>
             <ru>Возможный урожай</ru>
+            <it>Raccolta potenziale</it>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_YIELD">
             <fr>Rendement potentiel</fr>
@@ -113,6 +127,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
             <pl>Potencjalny zysk</pl>
             <es>Posible rendimiento</es>
             <ru>Возможн. урожайность</ru>
+            <it>Rendimento potenziale</it>
         </text>
     </l10n>
 
