@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="92">
+<modDesc descVersion="94">
     <author>yumi</author>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>
         <en>Additional Field Info</en>
         <fr>Informations De Champ Supplémentaires</fr>
@@ -18,6 +18,11 @@ Description: Display additional info in the field info panel when walking throug
   - Price per ha (per ac) of the cultivated area on land you don't own
   - Potential harvest quantity and yield on ready to harvest fields
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz and br translations
 ]]></en>
         <fr><![CDATA[
 Description: Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -26,6 +31,11 @@ Description: Affiche des informations supplémentaires dans le panneau lorsque v
   - Prix par ha (par ac) de la partie cultivée des terrains que vous ne possédez pas
   - Récolte et rendement potentiel dans les champs prêt à récolter
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Amélioration de la précision de Récolte et rendement potentiel
+  - Ajout des traductions cz et br
 ]]></fr>
         <de><![CDATA[
 Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn man durch ein Feld geht:
@@ -34,6 +44,11 @@ Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn 
   - Preis pro ha (pro ac) der Ackerfläche im aktuellen Land
   - Potenzielle Erntemenge und potenzieller Ertrag erntereifer Felder
 GitHub-Link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Verbesserte Genauigkeit bei Potenzielle Erntemenge und potenzieller Ertrag
+  - Hinzufügen von cz- und br-Übersetzungen
 ]]></de>
         <pl><![CDATA[
 Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -42,6 +57,11 @@ Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas ch
   - Cenę za ha (za akr) terenu po kultywacji na nieposiadanych ziemiach 
   - Potencjalny zysk i przypuszczalną ilość zbiorów na polach gotowych na zbiory
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz and br translations
 ]]></pl>
         <es><![CDATA[
 Descripción: Muestra información adicional sobre el campo que estás:
@@ -50,6 +70,11 @@ Descripción: Muestra información adicional sobre el campo que estás:
   - Precio por ha (per ac) del área cultivada en tierras que no son de su propiedad.
   - Cantidad potencial de cosecha y rendimiento en campos listos para cosechar
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz and br translations
 ]]></es>
         <ru><![CDATA[
 Описание: Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -58,6 +83,11 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
   - Цена за гектар (за акр) посевной площади на земле, которой вы не владеете
   - Возможное количество урожая и урожайность на готовых к уборке полях
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz and br translations
 ]]></ru>
         <cz><![CDATA[
 Popis: Zobrazení dodatečných informací o poli při procházení polem:
@@ -66,6 +96,11 @@ Popis: Zobrazení dodatečných informací o poli při procházení polem:
  - Cena za ha (za akr) obdělávané plochy na pozemku, který nevlastníte
  - Potenciální množství sklizně a výnos na polích připravených ke sklizni
 Odkaz na GitHub: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz and br translations
 ]]></cz>
         <br><![CDATA[
 Descrição: Exibe informações adicionais no painel de informações do campo ao caminhar por um campo:
@@ -74,6 +109,11 @@ Descrição: Exibe informações adicionais no painel de informações do campo 
   - Preço por ha (por ac) da área cultivada em propriedades que você não possui
   - Quantidade e rendimento potenciais da colheita em campos prontos para a colheita
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz and br translations
 ]]></br>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>

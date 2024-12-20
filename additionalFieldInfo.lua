@@ -3,8 +3,8 @@ AdditionalFieldInfo.PrecisionFarming = "FS25_precisionFarming"
 AdditionalFieldInfo.InfoMenu = "FS25_InfoMenu"
 
 
-function AdditionalFieldInfo:loadedMission() print("This is a development version of AdditionalFieldInfo for FS25, which may and will contain bugs.") end
-Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, AdditionalFieldInfo.loadedMission)
+-- function AdditionalFieldInfo:loadedMission() --[[----------------------------------------------------------------]] print("This is a development version of AdditionalFieldInfo for FS22, which may and will contain bugs.") end
+-- Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, AdditionalFieldInfo.loadedMission)
 
 function AdditionalFieldInfo:buildFarmlandsMapOverlay(selectedFarmland)
     -- print("AdditionalFieldInfo:buildFarmlandsMapOverlay")
@@ -88,33 +88,10 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                     local fruitGrowthState = data.lastGrowthState
                     if fruitType ~= nil and farmland.field ~= nil then
                         if fruitType.growthStateToName[fruitGrowthState] == "harvestReady" then
-                            local sprayFactor = data.sprayLevel
-                            local plowFactor = data.plowLevel
-                            local limeFactor = 1 - data.limeLevel
-                            local weedFactor = data.weedFactor
-                            local stubbleFactor = data.stubbleShredLevel
-                            local rollerFactor = 1 - data.rollerLevel
-                            local stoneFactor = data.stoneLevel
-                            local missionInfo = g_currentMission.missionInfo
-                
-                            if not missionInfo.plowingRequiredEnabled then
-                                plowFactor = 1
-                            end
-                
-                            if not missionInfo.limeRequired then
-                                limeFactor = 1
-                            end
-                
-                            if not missionInfo.weedsEnabled then
-                                weedFactor = 1
-                            end
-
-                            if not missionInfo.stonesEnabled then
-                                stoneFactor = 1
-                            end
-                            local harvestMultiplier = g_currentMission:getHarvestScaleMultiplier(fruitType, sprayFactor, plowFactor, limeFactor, weedFactor, stubbleFactor, rollerFactor, 0)
+                            local harvestMultiplier = data:getHarvestScaleMultiplier()
 
                             -- print("multiplier "..tostring(harvestMultiplier))
+                            
                             local fillType = g_fruitTypeManager:getFillTypeByFruitTypeIndex(fruitType.index)
                             local massPerLiter = fillType.massPerLiter
                             local literPerSqm = fruitType.literPerSqm
