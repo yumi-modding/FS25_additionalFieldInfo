@@ -7,6 +7,7 @@
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
         <ru>Дополнительная Информация О Поле</ru>
+        <pt>Informações Adicionais do Campo</pt>
         <cz>Dodatečné informace o poli</cz>
         <br>Informações Adicionais do Campo</br>
     </title>
@@ -22,7 +23,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
-  - Adding cz and br translations
+  - Adding cz, pt and br translations
 ]]></en>
         <fr><![CDATA[
 Description: Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -35,7 +36,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Amélioration de la précision de Récolte et rendement potentiel
-  - Ajout des traductions cz et br
+  - Ajout des traductions cz, pt et br
 ]]></fr>
         <de><![CDATA[
 Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn man durch ein Feld geht:
@@ -48,7 +49,7 @@ GitHub-Link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Verbesserte Genauigkeit bei Potenzielle Erntemenge und potenzieller Ertrag
-  - Hinzufügen von cz- und br-Übersetzungen
+  - Hinzufügen von cz-, pt- und br-Übersetzungen
 ]]></de>
         <pl><![CDATA[
 Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -61,7 +62,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
-  - Adding cz and br translations
+  - Adding cz, pt and br translations
 ]]></pl>
         <es><![CDATA[
 Descripción: Muestra información adicional sobre el campo que estás:
@@ -74,7 +75,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
-  - Adding cz and br translations
+  - Adding cz, pt and br translations
 ]]></es>
         <ru><![CDATA[
 Описание: Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -87,8 +88,21 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
-  - Adding cz and br translations
+  - Adding cz, pt and br translations
 ]]></ru>
+		<pt><![CDATA[
+Descrição: apresenta informações adicionais no painel de informações do campo ao percorrer um campo:
+  - Área de cada campo no terreno atual
+  - Área atual do terreno
+  - Preço por ha (por ac) de área cultivada em terrenos que não são propriedade sua
+  - Quantidade potencial de colheita e rendimento em campos prontos para colheita
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+]]></pt>
         <cz><![CDATA[
 Popis: Zobrazení dodatečných informací o poli při procházení polem:
  - Plocha každého pole v aktuálním pozemku
@@ -100,7 +114,7 @@ Odkaz na GitHub: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
-  - Adding cz and br translations
+  - Adding cz, pt and br translations
 ]]></cz>
         <br><![CDATA[
 Descrição: Exibe informações adicionais no painel de informações do campo ao caminhar por um campo:
@@ -113,7 +127,7 @@ GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
 Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
-  - Adding cz and br translations
+  - Adding cz, pt and br translations
 ]]></br>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
@@ -131,6 +145,7 @@ v1.0.0.1
             <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
+			<pt>Campo %d Área</pt>
             <cz>Plocha pole %d</cz>
             <br>Área do campo %d</br>
         </text>
@@ -141,6 +156,7 @@ v1.0.0.1
             <pl>Powierzchnia terenu</pl>
             <es>Area de la parcela</es>
             <ru>Площадь участка</ru>
+			<pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
         </text>
@@ -151,6 +167,7 @@ v1.0.0.1
             <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
+			<pt>Área</pt>
             <cz>Plocha</cz>
             <br>Área</br>
         </text>
@@ -161,6 +178,7 @@ v1.0.0.1
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
             <ru>Поле(я) на участке по</ru>
+			<pt>Preço por %s</pt>
             <cz>Cena za %s</cz>
             <br>Preço por %s</br>
         </text>
@@ -171,6 +189,7 @@ v1.0.0.1
             <pl>Potencjalny plon</pl>
             <es>A cosechar aprox.</es>
             <ru>Возможный урожай</ru>
+			<pt>Quantidade potencial de colheita</pt>
             <cz>Potenciální množství sklizně</cz>
             <br>Quantidade potencial de colheita</br>
         </text>
@@ -182,6 +201,7 @@ v1.0.0.1
             <es>Posible rendimiento</es>
             <ru>Возможн. урожайность</ru>
             <cz>Potenciální výnos</cz>
+			<pt>Rendimento potencial</pt>
             <br>Rendimento potencial</br>
         </text>
     </l10n>
