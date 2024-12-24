@@ -7,6 +7,7 @@
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
         <ru>Дополнительная Информация О Поле</ru>
+	<uk>Додаткова інформація про поле</uk>
         <pt>Informações Adicionais do Campo</pt>
         <cz>Dodatečné informace o poli</cz>
         <br>Informações Adicionais do Campo</br>
@@ -129,6 +130,19 @@ v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
 ]]></br>
+<uk><![CDATA[
+Опис: Показує додаткову інформацію на панелі інформації про поле коли ви на ньому:
+  - Площа кожного поля на ділянці
+  - Площа земельної ділянки
+  - Ціна за гектар (чи акр) посівної площї на землі, якими ви не володієте
+  - Можлива кількість врожаю та врожайність на готових до уборки полях
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+]]></uk>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -148,6 +162,7 @@ v1.0.0.1
 			<pt>Campo %d Área</pt>
             <cz>Plocha pole %d</cz>
             <br>Área do campo %d</br>
+            <uk>Площа поля %d</uk>
         </text>
         <text name="additionalFieldInfo_FARMLAND_AREA">
             <fr>Superficie du terrain</fr>
@@ -159,6 +174,7 @@ v1.0.0.1
 			<pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
+            <uk>Площа ділянки</uk>
         </text>
         <text name="additionalFieldInfo_AREA">
             <fr>Superficie</fr>
@@ -170,6 +186,7 @@ v1.0.0.1
 			<pt>Área</pt>
             <cz>Plocha</cz>
             <br>Área</br>
+            <uk>Площа</uk>
         </text>
         <text name="additionalFieldInfo_PRICE_ON_AREA">
             <fr>Prix à l'%s</fr>
@@ -177,10 +194,11 @@ v1.0.0.1
             <de>Preis pro %s</de>
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
-            <ru>Поле(я) на участке по</ru>
+            <ru>Поле(я) на участке по %s</ru>
 			<pt>Preço por %s</pt>
             <cz>Cena za %s</cz>
             <br>Preço por %s</br>
+            <uk>Поле(я) на ділянці по %s</uk>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_HARVEST">
             <fr>Récolte potentielle</fr>
@@ -192,6 +210,7 @@ v1.0.0.1
 			<pt>Quantidade potencial de colheita</pt>
             <cz>Potenciální množství sklizně</cz>
             <br>Quantidade potencial de colheita</br>
+            <uk>Потенційна кількість врожаю</uk>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_YIELD">
             <fr>Rendement potentiel</fr>
@@ -203,6 +222,7 @@ v1.0.0.1
             <cz>Potenciální výnos</cz>
 			<pt>Rendimento potencial</pt>
             <br>Rendimento potencial</br>
+            <uk>Потенційна врожайність</uk>
         </text>
     </l10n>
 
