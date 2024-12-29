@@ -72,6 +72,7 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
         local fieldAreaSum = 0.
         local farmLandPrice = 0.
         local isOwned = false
+        local _harvestReady = false --growthstage variable
         if farmland.id ~= nil then
             if farmland.id == data.farmlandId then
                 bFound = true
@@ -88,6 +89,7 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                     local fruitGrowthState = data.lastGrowthState
                     if fruitType ~= nil and farmland.field ~= nil then
                         if fruitType.growthStateToName[fruitGrowthState] == "harvestReady" then
+                            local _harvestReady = true --growth stage variable
                             local harvestMultiplier = data:getHarvestScaleMultiplier()
 
                             -- print("multiplier "..tostring(harvestMultiplier))
@@ -111,6 +113,17 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                             local potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(farmland.field.areaHa)
                             box:addLine(Potential_Yield, string.format("%1.2f T/"..tostring(g_i18n:getAreaUnit()), potentialYield))
                         end
+    					-- Added By Maggz for growth info display
+						if not _harvestReady then
+							local gStageMax = fruitType.numGrowthStates;
+							local Growth_Stage = g_i18n:getText("additionalFieldInfo_GROWTH_STAGE")
+							if fruitGrowthState <= gStageMax then
+								if fruitGrowthState ~= gStageMax then
+									box:addLine(Growth_Stage, string.format("%s/%s", fruitGrowthState, gStageMax))
+								end
+							end
+						end
+						-- End addition
                     end
                 end
             end
