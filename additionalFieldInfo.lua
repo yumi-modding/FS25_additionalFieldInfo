@@ -115,13 +115,13 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                         end
     			-- Added By Maggz for growth info display
 			if not _harvestReady then
-				local gStageMax = fruitType.numGrowthStates;
-				local Growth_Stage = g_i18n:getText("additionalFieldInfo_GROWTH_STAGE")
-				if fruitGrowthState <= gStageMax then
-					if fruitGrowthState ~= gStageMax then
-						box:addLine(Growth_Stage, string.format("%s/%s", fruitGrowthState, gStageMax))
-					end
+			    local gStageMax = fruitType.numGrowthStates;
+		            local Growth_Stage = g_i18n:getText("additionalFieldInfo_GROWTH_STAGE")
+			    if fruitGrowthState <= gStageMax then
+				if fruitGrowthState ~= gStageMax then
+				    box:addLine(Growth_Stage, string.format("%s/%s", fruitGrowthState, gStageMax))
 				end
+			    end
 			end
 			-- End addition
                     end
