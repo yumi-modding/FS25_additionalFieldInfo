@@ -113,17 +113,17 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                             local potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(farmland.field.areaHa)
                             box:addLine(Potential_Yield, string.format("%1.2f T/"..tostring(g_i18n:getAreaUnit()), potentialYield))
                         end
-    					-- Added By Maggz for growth info display
-						if not _harvestReady then
-							local gStageMax = fruitType.numGrowthStates;
-							local Growth_Stage = g_i18n:getText("additionalFieldInfo_GROWTH_STAGE")
-							if fruitGrowthState <= gStageMax then
-								if fruitGrowthState ~= gStageMax then
-									box:addLine(Growth_Stage, string.format("%s/%s", fruitGrowthState, gStageMax))
-								end
-							end
-						end
-						-- End addition
+    			-- Added By Maggz for growth info display
+			if not _harvestReady then
+				local gStageMax = fruitType.numGrowthStates;
+				local Growth_Stage = g_i18n:getText("additionalFieldInfo_GROWTH_STAGE")
+				if fruitGrowthState <= gStageMax then
+					if fruitGrowthState ~= gStageMax then
+						box:addLine(Growth_Stage, string.format("%s/%s", fruitGrowthState, gStageMax))
+					end
+				end
+			end
+			-- End addition
                     end
                 end
             end
