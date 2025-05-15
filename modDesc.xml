@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="94">
+<modDesc descVersion="98">
     <author>yumi</author>
     <version>1.0.1.0</version>
     <title>
@@ -190,7 +190,7 @@ v1.0.1.0
             <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
-			      <pt>Campo %d Área</pt>
+            <pt>Campo %d Área</pt>
             <cz>Plocha pole %d</cz>
             <br>Área do campo %d</br>
             <uk>Площа поля %d</uk>
@@ -214,7 +214,7 @@ v1.0.1.0
             <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
-			      <pt>Área</pt>
+            <pt>Área</pt>
             <cz>Plocha</cz>
             <br>Área</br>
             <uk>Ділянка</uk>
@@ -226,7 +226,7 @@ v1.0.1.0
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
             <ru>Поле(я) на участке по</ru>
-			      <pt>Preço por %s</pt>
+            <pt>Preço por %s</pt>
             <cz>Cena za %s</cz>
             <br>Preço por %s</br>
             <uk>Ціна за %s</uk>
@@ -238,7 +238,7 @@ v1.0.1.0
             <pl>Potencjalny plon</pl>
             <es>A cosechar aprox.</es>
             <ru>Возможный урожай</ru>
-			      <pt>Quantidade potencial de colheita</pt>
+            <pt>Quantidade potencial de colheita</pt>
             <cz>Potenciální množství sklizně</cz>
             <br>Quantidade potencial de colheita</br>
             <uk>Потенційна кількість врожаю</uk>
@@ -251,7 +251,7 @@ v1.0.1.0
             <es>Posible rendimiento</es>
             <ru>Возможн. урожайность</ru>
             <cz>Potenciální výnos</cz>
-			      <pt>Rendimento potencial</pt>
+            <pt>Rendimento potencial</pt>
             <br>Rendimento potencial</br>
             <uk>Потенційний врожай</uk>
         </text>
@@ -263,7 +263,7 @@ v1.0.1.0
             <es>Etapa de Crecimiento</es>
             <ru>Стадия роста</ru>
             <cz>Fáze růstu</cz>
-			      <pt>Estágio de crescimento</pt>
+            <pt>Estágio de crescimento</pt>
             <br>Estágio de crescimento</br>
             <uk>Стадії зростання</uk>
         </text>
