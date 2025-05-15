@@ -204,6 +204,14 @@ v1.0.0.1
 			<pt>Rendimento potencial</pt>
             <br>Rendimento potencial</br>
         </text>
+	<text name="additionalFieldInfo_GROWTH_STAGE">
+            <fr>Stade de Croissance</fr>
+            <en>Growth Stage</en>
+            <de>Wachstumsphase</de>
+            <pl>Etap wzrostu</pl>
+            <es>Etapa de Crecimiento</es>
+            <ru>Стадия роста</ru>
+        </text>
     </l10n>
 
 </modDesc>
