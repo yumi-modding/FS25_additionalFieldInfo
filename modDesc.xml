@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="94">
     <author>yumi</author>
-    <version>1.0.0.1</version>
+    <version>1.0.1.0</version>
     <title>
         <en>Additional Field Info</en>
         <fr>Informations De Champ Supplémentaires</fr>
@@ -10,6 +10,7 @@
         <pt>Informações Adicionais do Campo</pt>
         <cz>Dodatečné informace o poli</cz>
         <br>Informações Adicionais do Campo</br>
+        <uk>Додаткова інформація про поля</uk>
     </title>
     <description>
         <en><![CDATA[
@@ -24,6 +25,9 @@ Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></en>
         <fr><![CDATA[
 Description: Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -37,6 +41,9 @@ Changelog:
 v1.0.0.1
   - Amélioration de la précision de Récolte et rendement potentiel
   - Ajout des traductions cz, pt et br
+v1.0.1.0
+  - Ajout des stades de croissance
+  - Ajout des traductions uk et pl
 ]]></fr>
         <de><![CDATA[
 Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn man durch ein Feld geht:
@@ -50,6 +57,9 @@ Changelog:
 v1.0.0.1
   - Verbesserte Genauigkeit bei Potenzielle Erntemenge und potenzieller Ertrag
   - Hinzufügen von cz-, pt- und br-Übersetzungen
+v1.0.1.0
+  - Hinzufügen von Informationen zum Wachstumsphase
+  - Hinzufügen von uk- und pl-Übersetzungen
 ]]></de>
         <pl><![CDATA[
 Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -63,6 +73,9 @@ Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></pl>
         <es><![CDATA[
 Descripción: Muestra información adicional sobre el campo que estás:
@@ -76,6 +89,9 @@ Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></es>
         <ru><![CDATA[
 Описание: Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -89,6 +105,9 @@ Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></ru>
 		<pt><![CDATA[
 Descrição: apresenta informações adicionais no painel de informações do campo ao percorrer um campo:
@@ -102,6 +121,9 @@ Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></pt>
         <cz><![CDATA[
 Popis: Zobrazení dodatečných informací o poli při procházení polem:
@@ -115,6 +137,9 @@ Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></cz>
         <br><![CDATA[
 Descrição: Exibe informações adicionais no painel de informações do campo ao caminhar por um campo:
@@ -128,7 +153,27 @@ Changelog:
 v1.0.0.1
   - Improved Potential harvest quantity and yield accuracy
   - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
 ]]></br>
+<uk><![CDATA[
+Опис: відображає додаткову інформацію на панелі інформації про поле, коли переміщаєтеся по ньому:
+
+  - Площа кожного поля на поточній земельній ділянці
+  - Поточна площа землі
+  - Ціна за га (за акр) оброблюваної площі на землі, якою ви не володієте
+  - Потенційна кількість врожаю та врожайність на полях, готових до збору врожаю
+Посилання на GitHub: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
+]]></uk>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -145,9 +190,10 @@ v1.0.0.1
             <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
-			<pt>Campo %d Área</pt>
+			      <pt>Campo %d Área</pt>
             <cz>Plocha pole %d</cz>
             <br>Área do campo %d</br>
+            <uk>Площа поля %d</uk>
         </text>
         <text name="additionalFieldInfo_FARMLAND_AREA">
             <fr>Superficie du terrain</fr>
@@ -156,9 +202,10 @@ v1.0.0.1
             <pl>Powierzchnia terenu</pl>
             <es>Area de la parcela</es>
             <ru>Площадь участка</ru>
-			<pt>Área do terreno</pt>
+		        <pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
+            <uk>Площа ділянки</uk>
         </text>
         <text name="additionalFieldInfo_AREA">
             <fr>Superficie</fr>
@@ -167,9 +214,10 @@ v1.0.0.1
             <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
-			<pt>Área</pt>
+			      <pt>Área</pt>
             <cz>Plocha</cz>
             <br>Área</br>
+            <uk>Ділянка</uk>
         </text>
         <text name="additionalFieldInfo_PRICE_ON_AREA">
             <fr>Prix à l'%s</fr>
@@ -178,9 +226,10 @@ v1.0.0.1
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
             <ru>Поле(я) на участке по</ru>
-			<pt>Preço por %s</pt>
+			      <pt>Preço por %s</pt>
             <cz>Cena za %s</cz>
             <br>Preço por %s</br>
+            <uk>Ціна за %s</uk>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_HARVEST">
             <fr>Récolte potentielle</fr>
@@ -189,28 +238,34 @@ v1.0.0.1
             <pl>Potencjalny plon</pl>
             <es>A cosechar aprox.</es>
             <ru>Возможный урожай</ru>
-			<pt>Quantidade potencial de colheita</pt>
+			      <pt>Quantidade potencial de colheita</pt>
             <cz>Potenciální množství sklizně</cz>
             <br>Quantidade potencial de colheita</br>
+            <uk>Потенційна кількість врожаю</uk>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_YIELD">
             <fr>Rendement potentiel</fr>
             <en>Potential yield</en>
             <de>Potenzieller Ertrag</de>
-            <pl>Potencjalny zysk</pl>
+            <pl>Potencjalna masa</pl>
             <es>Posible rendimiento</es>
             <ru>Возможн. урожайность</ru>
             <cz>Potenciální výnos</cz>
-			<pt>Rendimento potencial</pt>
+			      <pt>Rendimento potencial</pt>
             <br>Rendimento potencial</br>
+            <uk>Потенційний врожай</uk>
         </text>
-	<text name="additionalFieldInfo_GROWTH_STAGE">
+		<text name="additionalFieldInfo_GROWTH_STAGE">
             <fr>Stade de Croissance</fr>
             <en>Growth Stage</en>
             <de>Wachstumsphase</de>
             <pl>Etap wzrostu</pl>
             <es>Etapa de Crecimiento</es>
             <ru>Стадия роста</ru>
+            <cz>Fáze růstu</cz>
+			      <pt>Estágio de crescimento</pt>
+            <br>Estágio de crescimento</br>
+            <uk>Стадії зростання</uk>
         </text>
     </l10n>
 
