@@ -6,6 +6,7 @@
         <en>Additional Field Info</en>
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
+		<pl>Dodatkowe info pól</pl>
         <ru>Дополнительная Информация О Поле</ru>
         <pt>Informações Adicionais do Campo</pt>
         <cz>Dodatečné informace o poli</cz>
@@ -202,7 +203,7 @@ v1.0.1.0
             <pl>Powierzchnia terenu</pl>
             <es>Area de la parcela</es>
             <ru>Площадь участка</ru>
-		        <pt>Área do terreno</pt>
+			<pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
             <uk>Площа ділянки</uk>
@@ -247,7 +248,7 @@ v1.0.1.0
             <fr>Rendement potentiel</fr>
             <en>Potential yield</en>
             <de>Potenzieller Ertrag</de>
-            <pl>Potencjalna masa</pl>
+            <pl>Potencjalny plon</pl>
             <es>Posible rendimiento</es>
             <ru>Возможн. урожайность</ru>
             <cz>Potenciální výnos</cz>
@@ -268,5 +269,4 @@ v1.0.1.0
             <uk>Стадії зростання</uk>
         </text>
     </l10n>
-
 </modDesc>
