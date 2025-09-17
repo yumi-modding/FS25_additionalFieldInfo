@@ -4,6 +4,7 @@
     <version>1.0.1.0</version>
     <title>
         <en>Additional Field Info</en>
+        <es>Información Adicional del Campo</es>
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
 		<pl>Dodatkowe info pól</pl>
@@ -201,7 +202,7 @@ v1.0.1.0
             <en>Land Area</en>
             <de>Landfläche</de>
             <pl>Powierzchnia terenu</pl>
-            <es>Area de la parcela</es>
+            <es>Area del Campo</es>
             <ru>Площадь участка</ru>
 			<pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
@@ -237,7 +238,7 @@ v1.0.1.0
             <en>Potential harvest quantity</en>
             <de>Potenzielle Erntemenge</de>
             <pl>Potencjalny plon</pl>
-            <es>A cosechar aprox.</es>
+            <es>Cosecha Aproximada.</es>
             <ru>Возможный урожай</ru>
             <pt>Quantidade potencial de colheita</pt>
             <cz>Potenciální množství sklizně</cz>
@@ -249,7 +250,7 @@ v1.0.1.0
             <en>Potential yield</en>
             <de>Potenzieller Ertrag</de>
             <pl>Potencjalny plon</pl>
-            <es>Posible rendimiento</es>
+            <es>Rendimiento Potencial</es>
             <ru>Возможн. урожайность</ru>
             <cz>Potenciální výnos</cz>
             <pt>Rendimento potencial</pt>
