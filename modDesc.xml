@@ -9,6 +9,7 @@
         <de>Zusätzliche Feldinfo</de>
 		<pl>Dodatkowe info pól</pl>
         <ru>Дополнительная Информация О Поле</ru>
+        <it>Informazioni aggiuntive sul campo</it>
         <pt>Informações Adicionais do Campo</pt>
         <cz>Dodatečné informace o poli</cz>
         <br>Informações Adicionais do Campo</br>
@@ -111,6 +112,14 @@ v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
 ]]></ru>
+        <it><![CDATA[
+Descrizione: Visualizza informazioni aggiuntive nel pannello informativo del campo quando si cammina in un campo:
+  - Area di ogni campo nel terreno corrente
+  - Area del terreno corrente
+  - Prezzo per ettaro (per ac) dell'area coltivata su terreni non di vostra proprietà
+  - Quantità e resa del raccolto potenziale sui campi pronti per il raccolto
+GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+]]></it>
 		<pt><![CDATA[
 Descrição: apresenta informações adicionais no painel de informações do campo ao percorrer um campo:
   - Área de cada campo no terreno atual
@@ -192,6 +201,7 @@ v1.0.1.0
             <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
+            <it>Superficie del campo</it>
             <pt>Campo %d Área</pt>
             <cz>Plocha pole %d</cz>
             <br>Área do campo %d</br>
@@ -204,6 +214,7 @@ v1.0.1.0
             <pl>Powierzchnia terenu</pl>
             <es>Area del Campo</es>
             <ru>Площадь участка</ru>
+            <it>Superficie del terreno</it>
 			<pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
@@ -216,6 +227,7 @@ v1.0.1.0
             <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
+            <it>Superficie</it>
             <pt>Área</pt>
             <cz>Plocha</cz>
             <br>Área</br>
@@ -228,6 +240,7 @@ v1.0.1.0
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
             <ru>Поле(я) на участке по</ru>
+            <it>Prezzo per %s</it>
             <pt>Preço por %s</pt>
             <cz>Cena za %s</cz>
             <br>Preço por %s</br>
@@ -240,6 +253,7 @@ v1.0.1.0
             <pl>Potencjalny plon</pl>
             <es>Cosecha Aproximada.</es>
             <ru>Возможный урожай</ru>
+            <it>Raccolta potenziale</it>
             <pt>Quantidade potencial de colheita</pt>
             <cz>Potenciální množství sklizně</cz>
             <br>Quantidade potencial de colheita</br>
@@ -252,6 +266,7 @@ v1.0.1.0
             <pl>Potencjalny plon</pl>
             <es>Rendimiento Potencial</es>
             <ru>Возможн. урожайность</ru>
+            <it>Rendimento potenziale</it>
             <cz>Potenciální výnos</cz>
             <pt>Rendimento potencial</pt>
             <br>Rendimento potencial</br>
