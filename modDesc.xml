@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="98">
+<modDesc descVersion="104">
     <author>yumi</author>
-    <version>1.0.1.0</version>
+    <version>1.0.2.0</version>
     <title>
         <en>Additional Field Info</en>
         <es>Información Adicional del Campo</es>
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
-		<pl>Dodatkowe info pól</pl>
+		    <pl>Dodatkowe info pól</pl>
         <ru>Дополнительная Информация О Поле</ru>
         <it>Informazioni aggiuntive sul campo</it>
         <pt>Informações Adicionais do Campo</pt>
@@ -31,6 +31,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></en>
         <fr><![CDATA[
 Description: Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -47,6 +50,9 @@ v1.0.0.1
 v1.0.1.0
   - Ajout des stades de croissance
   - Ajout des traductions uk et pl
+v1.0.2.0
+  - Calcul de la superficie du champ lorsque PrecisionFarming est installé
+  - Ajout des traductions es et it
 ]]></fr>
         <de><![CDATA[
 Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn man durch ein Feld geht:
@@ -63,6 +69,9 @@ v1.0.0.1
 v1.0.1.0
   - Hinzufügen von Informationen zum Wachstumsphase
   - Hinzufügen von uk- und pl-Übersetzungen
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></de>
         <pl><![CDATA[
 Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -79,6 +88,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></pl>
         <es><![CDATA[
 Descripción: Muestra información adicional sobre el campo que estás:
@@ -95,6 +107,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></es>
         <ru><![CDATA[
 Описание: Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -111,6 +126,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></ru>
         <it><![CDATA[
 Descrizione: Visualizza informazioni aggiuntive nel pannello informativo del campo quando si cammina in un campo:
@@ -119,6 +137,17 @@ Descrizione: Visualizza informazioni aggiuntive nel pannello informativo del cam
   - Prezzo per ettaro (per ac) dell'area coltivata su terreni non di vostra proprietà
   - Quantità e resa del raccolto potenziale sui campi pronti per il raccolto
 GitHub link: https://github.com/yumi-modding/FS25_additionalFieldInfo
+
+Changelog:
+v1.0.0.1
+  - Improved Potential harvest quantity and yield accuracy
+  - Adding cz, pt and br translations
+v1.0.1.0
+  - Adding growth stages
+  - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></it>
 		<pt><![CDATA[
 Descrição: apresenta informações adicionais no painel de informações do campo ao percorrer um campo:
@@ -135,6 +164,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></pt>
         <cz><![CDATA[
 Popis: Zobrazení dodatečných informací o poli při procházení polem:
@@ -151,6 +183,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></cz>
         <br><![CDATA[
 Descrição: Exibe informações adicionais no painel de informações do campo ao caminhar por um campo:
@@ -167,6 +202,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></br>
 <uk><![CDATA[
 Опис: відображає додаткову інформацію на панелі інформації про поле, коли переміщаєтеся по ньому:
@@ -184,6 +222,9 @@ v1.0.0.1
 v1.0.1.0
   - Adding growth stages
   - Adding uk and pl tranlations
+v1.0.2.0
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
 ]]></uk>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
@@ -215,7 +256,7 @@ v1.0.1.0
             <es>Area del Campo</es>
             <ru>Площадь участка</ru>
             <it>Superficie del terreno</it>
-			<pt>Área do terreno</pt>
+			      <pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
             <uk>Площа ділянки</uk>

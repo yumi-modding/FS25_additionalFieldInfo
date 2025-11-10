@@ -77,8 +77,13 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
             if farmland.id == data.farmlandId then
                 bFound = true
                 if farmland.field ~= nil then
-                    local areaInHa =  g_i18n:formatArea(farmland.field.areaHa, 2)
-                    fieldAreaSum = fieldAreaSum + farmland.field.areaHa
+                    local areaInHa = g_i18n:formatArea(farmland.field.areaHa, 2)
+                    if farmland.totalFieldArea ~= nil then
+                        areaInHa = g_i18n:formatArea(farmland.totalFieldArea, 2)
+                        fieldAreaSum = fieldAreaSum + farmland.totalFieldArea
+                    else
+                        fieldAreaSum = fieldAreaSum + farmland.field.areaHa
+                    end
                     local Field_xx_Area = string.format(g_i18n:getText("additionalFieldInfo_FIELD_AREA"), farmland.id)
                     box:addLine(Field_xx_Area, areaInHa)
                 end
@@ -100,6 +105,9 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                             -- Display Potential harvest quantity
                             local Potential_Harvest = g_i18n:getText("additionalFieldInfo_POTENTIAL_HARVEST")
                             local potentialHarvestQty = literPerSqm * farmland.field.areaHa * harvestMultiplier * 10000 -- ha to sqm
+                            if farmland.totalFieldArea ~= nil then
+                                potentialHarvestQty = literPerSqm * farmland.totalFieldArea * harvestMultiplier * 10000 -- ha to sqm
+                            end
                             -- potentialHarvestQty = g_missionManager:testHarvestField(farmland)
                                 -- local harvestMission = g_missionManager.fieldToMission[farmland.farmland.fieldId]
                                 -- if harvestMission then
@@ -111,6 +119,9 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                             -- Display Potential yield
                             local Potential_Yield = g_i18n:getText("additionalFieldInfo_POTENTIAL_YIELD")
                             local potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(farmland.field.areaHa)
+                            if farmland.totalFieldArea ~= nil then
+                                potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(armland.totalFieldArea)
+                            end
                             box:addLine(Potential_Yield, string.format("%1.2f T/"..tostring(g_i18n:getAreaUnit()), potentialYield))
                         end
     			-- Added By Maggz for growth info display
