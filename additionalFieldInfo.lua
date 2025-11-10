@@ -120,7 +120,7 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
                             local Potential_Yield = g_i18n:getText("additionalFieldInfo_POTENTIAL_YIELD")
                             local potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(farmland.field.areaHa)
                             if farmland.totalFieldArea ~= nil then
-                                potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(armland.totalFieldArea)
+                                potentialYield = (potentialHarvestQty * massPerLiter) / g_i18n:getArea(farmland.totalFieldArea)
                             end
                             box:addLine(Potential_Yield, string.format("%1.2f T/"..tostring(g_i18n:getAreaUnit()), potentialYield))
                         end
@@ -158,3 +158,4 @@ function AdditionalFieldInfo:fieldAddFarmland(data, box)
     end
 end
 PlayerHUDUpdater.fieldAddFarmland = Utils.appendedFunction(PlayerHUDUpdater.fieldAddFarmland, AdditionalFieldInfo.fieldAddFarmland)
+
