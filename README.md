@@ -40,3 +40,7 @@ When walking through a field, the info panel will show extra data about the land
 **v1.0.0.1**
 - Improved potential harvest quantity and yield accuracy
 - Added Czech, Portuguese, and Brazilian Portuguese translations
+
+**v1.0.2.0**
+  - Field area calculation when PrecisionFarming is installed
+  - Adding es and it tranlations
