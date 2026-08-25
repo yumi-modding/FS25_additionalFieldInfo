@@ -44,3 +44,6 @@ When walking through a field, the info panel will show extra data about the land
 **v1.0.2.0**
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+
+**v1.0.3.0**
+  - Adding da, sv and no translations
