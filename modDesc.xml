@@ -80,7 +80,7 @@ v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
 v1.0.3.0
-  - Hinzufügen von da-, sv- und no-Übersetzungen			
+  - Adding da, sv and no translations			
 ]]></de>
         <pl><![CDATA[
 Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -271,8 +271,8 @@ v1.0.3.0
             <br>Área do campo %d</br>
             <uk>Площа поля %d</uk>
 			<da>Markareal</da>
-            <sv>Fältareal</sv>
-            <no>Jordeareal</no>
+            <sv>Åkerareal</sv>
+            <no>Dyrka areal</no>
         </text>
         <text name="additionalFieldInfo_FARMLAND_AREA">
             <fr>Superficie du terrain</fr>
@@ -282,13 +282,13 @@ v1.0.3.0
             <es>Area del Campo</es>
             <ru>Площадь участка</ru>
             <it>Superficie del terreno</it>
-			      <pt>Área do terreno</pt>
+			<pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
             <uk>Площа ділянки</uk>
-			<da>Grundareal</da>
-            <sv>Markareal</sv>
-            <no>Eiendomsareal</no>
+			<da>Totalareal</da>
+            <sv>Totalareal</sv>
+            <no>Totalareal</no>
         </text>
         <text name="additionalFieldInfo_AREA">
             <fr>Superficie</fr>
