@@ -14,6 +14,9 @@
         <cz>Dodatečné Informace O Poli</cz>
         <br>Informações Adicionais Do Campo</br>
         <uk>Додаткова Інформація Про Поля</uk>
+		<da>Yderligere Markinformation</da>
+        <sv>Ytterligare Fältinformation</sv>
+        <no>Tilleggsinformasjon Om Jorde</no>
     </title>
     <description>
         <en><![CDATA[
@@ -34,6 +37,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations
 ]]></en>
         <fr><![CDATA[
 Description: Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -53,6 +58,8 @@ v1.0.1.0
 v1.0.2.0
   - Calcul de la superficie du champ lorsque PrecisionFarming est installé
   - Ajout des traductions es et it
+v1.0.3.0
+  - Ajout des traductions da, sv et no			
 ]]></fr>
         <de><![CDATA[
 Beschreibung: Zeigt zusätzliche Informationen zum Feld im Infofenster an, wenn man durch ein Feld geht:
@@ -72,6 +79,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations			
 ]]></de>
         <pl><![CDATA[
 Opis: Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -91,6 +100,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations			
 ]]></pl>
         <es><![CDATA[
 Descripción: Muestra información adicional sobre el campo que estás:
@@ -110,6 +121,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations			
 ]]></es>
         <ru><![CDATA[
 Описание: Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -129,6 +142,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations			
 ]]></ru>
         <it><![CDATA[
 Descrizione: Visualizza informazioni aggiuntive nel pannello informativo del campo quando si cammina in un campo:
@@ -148,6 +163,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations			
 ]]></it>
 		<pt><![CDATA[
 Descrição: apresenta informações adicionais no painel de informações do campo ao percorrer um campo:
@@ -186,6 +203,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations
 ]]></cz>
         <br><![CDATA[
 Descrição: Exibe informações adicionais no painel de informações do campo ao caminhar por um campo:
@@ -205,6 +224,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations
 ]]></br>
 <uk><![CDATA[
 Опис: відображає додаткову інформацію на панелі інформації про поле, коли переміщаєтеся по ньому:
@@ -225,6 +246,8 @@ v1.0.1.0
 v1.0.2.0
   - Field area calculation when PrecisionFarming is installed
   - Adding es and it tranlations
+v1.0.3.0
+  - Adding da, sv and no translations
 ]]></uk>
     </description>
     <iconFilename>icon_additionalFieldInfo.dds</iconFilename>
@@ -247,6 +270,9 @@ v1.0.2.0
             <cz>Plocha pole %d</cz>
             <br>Área do campo %d</br>
             <uk>Площа поля %d</uk>
+			<da>Markareal</da>
+            <sv>Åkerareal</sv>
+            <no>Dyrka areal</no>
         </text>
         <text name="additionalFieldInfo_FARMLAND_AREA">
             <fr>Superficie du terrain</fr>
@@ -256,10 +282,13 @@ v1.0.2.0
             <es>Area del Campo</es>
             <ru>Площадь участка</ru>
             <it>Superficie del terreno</it>
-			      <pt>Área do terreno</pt>
+			<pt>Área do terreno</pt>
             <cz>Plocha pozemku</cz>
             <br>Área da propriedade</br>
             <uk>Площа ділянки</uk>
+			<da>Totalareal</da>
+            <sv>Totalareal</sv>
+            <no>Totalareal</no>
         </text>
         <text name="additionalFieldInfo_AREA">
             <fr>Superficie</fr>
@@ -273,6 +302,9 @@ v1.0.2.0
             <cz>Plocha</cz>
             <br>Área</br>
             <uk>Ділянка</uk>
+			<da>Areal</da>
+            <sv>Areal</sv>
+            <no>Areal</no>
         </text>
         <text name="additionalFieldInfo_PRICE_ON_AREA">
             <fr>Prix à l'%s</fr>
@@ -286,6 +318,10 @@ v1.0.2.0
             <cz>Cena za %s</cz>
             <br>Preço por %s</br>
             <uk>Ціна за %s</uk>
+			<da>Pris pr. %s</da>
+            <sv>Pris per %s</sv>
+            <no>Pris per %s</no>
+			
         </text>
         <text name="additionalFieldInfo_POTENTIAL_HARVEST">
             <fr>Récolte potentielle</fr>
@@ -299,6 +335,9 @@ v1.0.2.0
             <cz>Potenciální množství sklizně</cz>
             <br>Quantidade potencial de colheita</br>
             <uk>Потенційна кількість врожаю</uk>
+			<da>Potentiel høstmængde</da>
+            <sv>Potentiell skördemängd</sv>
+            <no>Potensiell høstemengde</no>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_YIELD">
             <fr>Rendement potentiel</fr>
@@ -312,6 +351,9 @@ v1.0.2.0
             <pt>Rendimento potencial</pt>
             <br>Rendimento potencial</br>
             <uk>Потенційний врожай</uk>
+			<da>Potentielt udbytte</da>
+            <sv>Potentiell avkastning</sv>
+            <no>Potensiell avling</no>
         </text>
 		<text name="additionalFieldInfo_GROWTH_STAGE">
             <fr>Stade de Croissance</fr>
@@ -324,6 +366,9 @@ v1.0.2.0
             <pt>Estágio de crescimento</pt>
             <br>Estágio de crescimento</br>
             <uk>Стадії зростання</uk>
+			<da>Vækststadie</da>
+            <sv>Tillväxtstadium</sv>
+            <no>Vekststadium</no>
         </text>
     </l10n>
 </modDesc>
